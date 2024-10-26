@@ -6,7 +6,7 @@
  * @returns {Response} https://developer.mozilla.org/en-US/docs/Web/API/Response
  */
 async function handleRequest(request, args) {
-  const message = `Bom dia`;
+  const message = `Olá, senhor. Tenha um bom dia. Estou feliz em me conectar com o Brasil. Obrigado por esta oportunidade.`;
 
   return new Response(message, {
     headers: {
