@@ -1,0 +1,42 @@
+{
+  "name": "Brazil",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241026131055",
+  "not-first-run": true,
+  "function": {
+    "id": 31200,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29889,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 182208
+  },
+  "application": {
+    "id": 1729942132,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1729940782,
+    "name": "Brazil",
+    "domain_name": "wm5mv78b05.map.azionedge.net",
+    "url": "https://wm5mv78b05.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 311640,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
